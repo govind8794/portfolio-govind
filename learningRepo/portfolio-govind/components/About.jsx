@@ -13,8 +13,8 @@ const About = () => {
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">I am not your normal developer</p>
           <p className="py-2 text-gray-600">
-            In 2017\, I started learning with HTML and CSS developing and designing
-            some stick pages and making some minor changes on web browser\'s with
+            In 2017, I started learning with HTML and CSS developing and designing
+            some stick pages and making some minor changes on web browsers with
             the help of debugging and inspecting. After I started liking and
             interesting for programming side.
           </p>
