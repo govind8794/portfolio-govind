@@ -11,7 +11,7 @@ const About = () => {
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">// I am not your normal developer</p>
           <p className="py-2 text-gray-600">
-            In 2017, I started learning with HTML & CSS developing and designing
+            In 2017, I started learning with HTML and CSS developing and designing
             some stick pages and making some minor changes on web browser's with
             the help of debugging and inspecting. After I started liking and
             interesting for programming side.
@@ -23,7 +23,7 @@ const About = () => {
         </div>
         <div className="rounded-xl w-full h-auto m-auto shadow-gray-400 flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 ">
           <img className="rounded-xl"
-            src="https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/687289/retina_500x200_op-Ten-Front-End-Design-Rules-For-Developers_Luke-Newsletter-d3a7d3e7430ee224cab75104f11342a0.png"
+            src={"https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/687289/retina_500x200_op-Ten-Front-End-Design-Rules-For-Developers_Luke-Newsletter-d3a7d3e7430ee224cab75104f11342a0.png"}
             alt="FD "
           />
         </div>
