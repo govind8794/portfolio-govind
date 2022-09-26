@@ -44,7 +44,7 @@ export const MobileNavBar = ({ nav, navHandler }) => {
           <NavBarLinks classNameUL={"uppercase"} links={linksData} liClassName='py-4 text-sm' clickHandler={navHandler} mobile/>
           <div className="pt-40">
             <p className="uppercase tracking-widest text-[#5651e5]">
-              Let's Connect
+              {`Let's Connect`}
             </p>
             <SocialMedia
               parentDivClassName={" my-4 w-full sm:w-[80%]"}

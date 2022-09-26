@@ -1,4 +1,6 @@
+import Image from "next/image";
 import React from "react";
+
 
 const About = () => {
   return (
@@ -22,7 +24,7 @@ const About = () => {
           <p className="py-2 text-gray-600 underline cursor-pointer"> Check out some of my latest projects</p>
         </div>
         <div className="rounded-xl w-full h-auto m-auto shadow-gray-400 flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 ">
-          <img className="rounded-xl"
+          <Image className="rounded-xl"
             src={"https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/687289/retina_500x200_op-Ten-Front-End-Design-Rules-For-Developers_Luke-Newsletter-d3a7d3e7430ee224cab75104f11342a0.png"}
             alt="FD "
           />
