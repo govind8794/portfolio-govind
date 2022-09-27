@@ -5,6 +5,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import { linksData } from "../public/assets/MockData/LinksMockData";
 import { NavBarLinks } from "./NavBarLinks";
 import SocialMedia from "./SocialMedia";
+import GPImg from '../public/assets/logos/GP.png'
 
 export const MobileNavBar = ({ nav, navHandler }) => {
   return (
@@ -24,7 +25,7 @@ export const MobileNavBar = ({ nav, navHandler }) => {
           <div className="flex w-full items-center justify-between">
             <Link  href={'/'}>
             <Image
-              src="/../public/assets/logos/GP.png"
+              src={GPImg}
               alt="GP"
               width="65"
               height="55"

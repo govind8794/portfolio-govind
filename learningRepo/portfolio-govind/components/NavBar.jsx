@@ -6,6 +6,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { linksData } from "../public/assets/MockData/LinksMockData";
 import { NavBarLinks } from "./NavBarLinks";
 import Link from "next/link";
+import GPImg from '../public/assets/logos/GP.png'
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -53,7 +54,7 @@ const NavBar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href={'/'}>
         <Image
-          src="/../public/assets/logos/GP.png"
+          src={GPImg}
           alt="GP"
           width="65"
           height="55"
