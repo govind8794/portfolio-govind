@@ -7,16 +7,20 @@ import Link from "next/link";
 export default function SocialMediaMobile({ childDivClassName, parentDivClassName }) {
   return (
     <div className={` flex items-center justify-between ${parentDivClassName}`}>
-       <Link href={'https://www.linkedin.com/in/govind-patlolu-080192153/'} passHref > 
-       <a target="_blank">
-      <div className={` rounded-full shadow-lg shadow-gray-400 cursor-pointer ease-in duration-300 ${childDivClassName}`}>
-        <FaLinkedinIn /> 
-      </div>
-      </a>
+      <Link href={'https://www.linkedin.com/in/govind-r-080192153/'} passHref >
+        <a target="_blank">
+          <div className={` rounded-full shadow-lg shadow-gray-400 cursor-pointer ease-in duration-300 ${childDivClassName}`}>
+            <FaLinkedinIn />
+          </div>
+        </a>
       </Link>
-      <div className={` rounded-full shadow-lg shadow-gray-400 cursor-pointer ease-in duration-300 ${childDivClassName}`}>
-        <FaGithub />
-      </div>
+      <Link href={'https://github.com/govind8794'} passHref >
+        <a target="_blank">
+          <div className={` rounded-full shadow-lg shadow-gray-400 cursor-pointer ease-in duration-300 ${childDivClassName}`}>
+            <FaGithub />
+          </div>
+        </a>
+      </Link>
       <div className={` rounded-full shadow-lg shadow-gray-400 cursor-pointer ease-in duration-300 ${childDivClassName}`}>
         <AiOutlineMail />
       </div>
