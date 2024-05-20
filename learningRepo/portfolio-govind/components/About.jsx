@@ -7,17 +7,11 @@ const About = () => {
     <div id='about' className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 ">
         <div className="col-span-2">
-          {/* <p className="uppercase text-xl tracking-widest text-[#2c69af]">
-            About
-          </p> */}
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">My name's Govind Reddy. I'm a web developer based in Dallas, TX, US.</p>
           <p className="py-2 text-gray-600">
             Results-driven developer with <Experience startDate="11-01-2015" />+ years of experience in leading cross-functional teams to create and deliver cutting-edge solutions for diverse markets. Specialize in crafting high-quality React components that enhance user experiences and elevate application performance. Strong track record of delivering high-quality web applications and leading teams for successful project completion, on both the front-end and back-end. Deep understanding of web development concepts such as RESTful API design, microservices, and cloud computing couple with proficiency in Agile methodologies
           </p>
-          {/* <p className="py-2 text-gray-600">
-            Fascinated with how intricate programming can be I was quickly drawn
-          </p> */}
           <p className="py-2 text-gray-600 underline cursor-pointer"> Check out some of my latest projects</p>
         </div>
         <div className="rounded-xl w-full h-auto m-auto shadow-gray-400 flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 ">
