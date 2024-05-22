@@ -21,7 +21,7 @@ const Contact = () => {
                 <img
                   className="rounded-xl hover:scale-105 ease-in duration-300"
                   src={`https://images.unsplash.com/photo-1485988412941-77a35537dae4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2096&q=80`}
-                  alt="/"
+                  alt="Icon"
                 />
               </div>
               <div>
@@ -47,7 +47,7 @@ const Contact = () => {
             <div className="p-4">
               <form action="https://getform.io/f/6de3807a-2f35-46e9-b460-0a9e4139fd8e" method="POST">
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
-                  <FormInput title={"name"} inputType="text" nameType='name'/>
+                  <FormInput title={"name"} inputType="text" nameType='name' />
                   <FormInput title={"phone number"} inputType="number" nameType='phone' />
                 </div>
                 <FormInput
